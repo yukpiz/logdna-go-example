@@ -1,0 +1,1 @@
+# logdna-go-example

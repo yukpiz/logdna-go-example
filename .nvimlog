@@ -88,3 +88,29 @@ INFO  2019-11-12T11:19:11.601 6115  on_process_exit:385: exited: pid=6130 status
 INFO  2019-11-12T11:19:11.610 6115  main:570: starting main loop
 INFO  2019-11-12T11:19:15.082 6115  on_process_exit:385: exited: pid=7625 status=0 stoptime=0
 INFO  2019-11-12T11:19:15.109 6115  on_process_exit:385: exited: pid=7631 status=0 stoptime=0
+INFO  2019-11-12T11:22:31.472 8318  channel_create_event:199: new channel 3 (function coc#rpc#start_server[16]..<SNR>43_start:25) : {"id": 3, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2019-11-12T11:22:31.520 8318  on_process_exit:385: exited: pid=8327 status=128 stoptime=0
+INFO  2019-11-12T11:22:31.523 8318  on_process_exit:385: exited: pid=8328 status=0 stoptime=0
+INFO  2019-11-12T11:22:31.537 8318  on_process_exit:385: exited: pid=8329 status=128 stoptime=0
+INFO  2019-11-12T11:22:31.539 8318  on_process_exit:385: exited: pid=8330 status=0 stoptime=0
+INFO  2019-11-12T11:22:31.567 8318  main:570: starting main loop
+INFO  2019-11-12T11:22:32.360 8318  os_proc_tree_kill:96: sending SIGTERM to process group: -8320
+WARN  2019-11-12T11:22:32.364 8318  call_set_error:613: RPC: ch 3 was closed by the client
+INFO  2019-11-12T11:22:32.364 8318  on_process_exit:385: exited: pid=8320 status=0 stoptime=6856767437276
+INFO  2019-11-12T11:22:32.365 8318  mch_exit:99: Nvim exit: 0
+INFO  2019-11-12T11:22:35.128 8374  channel_create_event:199: new channel 3 (function coc#rpc#start_server[16]..<SNR>43_start:25) : {"id": 3, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2019-11-12T11:22:35.201 8374  main:570: starting main loop
+INFO  2019-11-12T11:22:49.295 6115  channel_create_event:199: new channel 5 (function provider#clipboard#Call[6]..272:31) : {"id": 5, "mode": "bytes", "stream": "job"}
+INFO  2019-11-12T11:23:04.693 6115  os_proc_tree_kill:96: sending SIGTERM to process group: -8422
+INFO  2019-11-12T11:23:04.695 6115  channel_create_event:199: new channel 6 (function provider#clipboard#Call[6]..272:31) : {"id": 6, "mode": "bytes", "stream": "job"}
+INFO  2019-11-12T11:23:04.697 6115  on_process_exit:385: exited: pid=8422 status=0 stoptime=6889100843690
+INFO  2019-11-12T11:23:18.365 6115  os_proc_tree_kill:96: sending SIGTERM to process group: -6117
+WARN  2019-11-12T11:23:18.368 6115  call_set_error:613: RPC: ch 3 was closed by the client
+INFO  2019-11-12T11:23:18.369 6115  on_process_exit:385: exited: pid=6117 status=0 stoptime=6902772526182
+INFO  2019-11-12T11:23:18.369 6115  os_proc_tree_kill:96: sending SIGTERM to process group: -6124
+INFO  2019-11-12T11:23:18.376 6115  on_process_exit:385: exited: pid=6124 status=0 stoptime=6902776287246
+INFO  2019-11-12T11:23:18.376 6115  mch_exit:99: Nvim exit: 0
+INFO  2019-11-12T11:23:24.136 8374  os_proc_tree_kill:96: sending SIGTERM to process group: -8376
+WARN  2019-11-12T11:23:24.139 8374  call_set_error:613: RPC: ch 3 was closed by the client
+INFO  2019-11-12T11:23:24.140 8374  on_process_exit:385: exited: pid=8376 status=0 stoptime=6908543781516
+INFO  2019-11-12T11:23:24.140 8374  mch_exit:99: Nvim exit: 0
