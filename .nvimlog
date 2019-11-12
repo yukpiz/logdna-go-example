@@ -1,6 +1,0 @@
-INFO  2019-11-12T11:23:48.548 9012  channel_create_event:199: new channel 3 (function coc#rpc#start_server[16]..<SNR>43_start:25) : {"id": 3, "client": {}, "mode": "rpc", "stream": "job"}
-INFO  2019-11-12T11:23:48.602 9012  main:570: starting main loop
-INFO  2019-11-12T11:23:51.208 9012  os_proc_tree_kill:96: sending SIGTERM to process group: -9014
-WARN  2019-11-12T11:23:51.211 9012  call_set_error:613: RPC: ch 3 was closed by the client
-INFO  2019-11-12T11:23:51.211 9012  on_process_exit:385: exited: pid=9014 status=0 stoptime=6935615484337
-INFO  2019-11-12T11:23:51.212 9012  mch_exit:99: Nvim exit: 0
